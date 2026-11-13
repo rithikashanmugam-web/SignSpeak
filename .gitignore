@@ -1,0 +1,31 @@
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Datasets
+dataset/
+phrase_dataset/
+MP_Data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE files
+.vscode/
+.idea/
+
+# Training checkpoint
+models/last_checkpoint.pth
+
+# Generated evaluation output
+models/confusion_matrix.npy
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
